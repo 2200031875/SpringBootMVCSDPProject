@@ -1,0 +1,152 @@
+/* Global Styles */
+* {
+    box-sizing: border-box; /* Include padding and borders in width and height */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif; /* Clean font choice */
+    background-color: #f0f4f8; /* Very light gray background */
+    color: #333; /* Dark text for readability */
+    display: flex;
+    flex-direction: column; /* Stack navbar and forms vertically */
+    align-items: center; /* Center align items */
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex; /* Flex layout for navbar */
+    justify-content: center; /* Center navbar items */
+    background-color: #a1c4fd; /* Soft blue background */
+    padding: 15px; /* Padding for navbar */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below navbar */
+    width: 100%; /* Full width */
+}
+
+/* Navbar Links */
+.navbar a {
+    color: #ffffff; /* White text */
+    text-decoration: none; /* No underline */
+    padding: 12px 20px; /* Padding for links */
+    margin: 0 10px; /* Space between links */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.navbar a:hover {
+    background-color: #6aa7ff; /* Slightly darker blue on hover */
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-direction: column; /* Stack forms vertically */
+    align-items: center; /* Center forms */
+    padding: 20px; /* Space around forms */
+}
+
+/* Form Styles */
+.form-container {
+    background: #ffffff; /* White background for forms */
+    padding: 30px; /* Comfortable padding */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width for forms */
+    margin-bottom: 20px; /* Space between forms */
+    text-align: center; /* Center text */
+}
+
+/* Headings */
+h2 {
+    color: #4a90e2; /* Soft blue color for headings */
+    margin-bottom: 20px; /* Space below heading */
+    font-size: 1.8em; /* Larger font size */
+}
+
+/* Label Styles */
+label {
+    display: block;
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold labels */
+    color: #555; /* Darker gray */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%; /* Full width */
+    padding: 10px; /* Comfortable padding */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #d1d5db; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+input:focus {
+    border-color: #4a90e2; /* Soft blue border on focus */
+    outline: none; /* Remove outline */
+}
+
+/* Button Styles */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space between buttons */
+}
+
+.button-container input {
+    padding: 12px; /* Padding for buttons */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    width: 48%; /* Button width */
+    font-size: 1em; /* Font size for buttons */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.button-container input[type="submit"] {
+    background-color: #6ab04c; /* Soft green for submit */
+    color: white; /* White text */
+}
+
+.button-container input[type="submit"]:hover {
+    background-color: #4cae50; /* Darker green on hover */
+}
+
+.button-container input[type="reset"] {
+    background-color: #e74c3c; /* Soft red for reset */
+    color: white; /* White text */
+}
+
+.button-container input[type="reset"]:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Message Styles */
+.message {
+    margin: 20px 0; /* Space around message */
+    font-size: 1.1em; /* Slightly larger font size */
+    color: #6ab04c; /* Green for success messages */
+}
+
+/* Login Link Styles */
+.login-link {
+    display: inline-block; /* Inline block for link */
+    margin-top: 10px; /* Space above link */
+    padding: 10px 15px; /* Padding for link */
+    background-color: #4a90e2; /* Soft blue for link */
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.login-link:hover {
+    background-color: #357ab8; /* Slightly darker blue on hover */
+}
